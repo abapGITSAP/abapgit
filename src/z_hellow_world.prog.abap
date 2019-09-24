@@ -6,3 +6,5 @@
 REPORT Z_HELLOW_WORLD.
 
 write: / 'Hello World'.
+
+write: / 'Second iteration'.
