@@ -27,6 +27,10 @@ CLASS ZCL_DEMO_GIT IMPLEMENTATION.
     " new row
     write: 'this is me'.
 
+    " Alex
+
+    WRITE: 'and me'.
+
 
   endmethod.
 ENDCLASS.
