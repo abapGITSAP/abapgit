@@ -10,6 +10,7 @@ protected section.
 private section.
 
   methods CREATE .
+  methods NEWFEATURE .
 ENDCLASS.
 
 
@@ -19,7 +20,6 @@ CLASS ZCL_DEMO_GIT IMPLEMENTATION.
 
   method CREATE.
     write: / 'Demo step 1'.
-    " comment
   endmethod.
 
 
@@ -35,5 +35,9 @@ CLASS ZCL_DEMO_GIT IMPLEMENTATION.
     WRITE: 'and me'.
 
 
+  endmethod.
+
+
+  method NEWFEATURE.
   endmethod.
 ENDCLASS.
