@@ -24,6 +24,8 @@ CLASS ZCL_DEMO_GIT IMPLEMENTATION.
 
   method DELETE.
 
+    "just another comment
+
     " new row
     write: 'this is me'.
 
