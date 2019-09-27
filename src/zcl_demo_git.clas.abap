@@ -19,6 +19,7 @@ CLASS ZCL_DEMO_GIT IMPLEMENTATION.
 
   method CREATE.
     write: / 'Demo step 1'.
+    " comment
   endmethod.
 
 
