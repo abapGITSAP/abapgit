@@ -11,4 +11,3 @@ write: 'hi@'.
 "this is a comment
 
 write: 'Branch A'.
-write: 'Branch B'.
