@@ -13,6 +13,7 @@ private section.
   methods NEWFEATURE .
   methods NEWFEATUREASECURED .
   methods NEWFEATUREASECUREDNEW .
+  methods NEWFEATUREASECUREDNEW2 .
 ENDCLASS.
 
 
@@ -48,5 +49,8 @@ CLASS ZCL_DEMO_GIT IMPLEMENTATION.
   endmethod.
   
   method NEWFEATUREASECUREDNEW.
+  endmethod.
+  
+  method NEWFEATUREASECUREDNEW2.
   endmethod.
 ENDCLASS.
