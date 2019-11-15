@@ -27,8 +27,7 @@ CLASS ZCL_SINGLETON IMPLEMENTATION.
 
   method GET_CURRENT_DATA.
     rv_date = sy-datum.
-    "comment
-    write rv_date.
+    write sy-uname.
   endmethod.
 
 
