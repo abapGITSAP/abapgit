@@ -1,16 +1,19 @@
-class zcl_meetup definition
+class ZCL_MEETUP definition
   public
   final
   create public .
 
-  public section.
+public section.
 
-    class-methods get_instance
-      returning
-        value(ro_singleton) type ref to zcl_meetup .
-    methods get_current_user
-      returning
-        value(rv_username) type usr02-bname .
+  class-methods GET_INSTANCE
+    returning
+      value(RO_SINGLETON) type ref to ZCL_MEETUP .
+  methods GET_CURRENT_USER
+    returning
+      value(RV_USERNAME) type USR02-BNAME .
+  methods GET_CURRENT_DATE
+    returning
+      value(RV_DATE) type SY-DATUM .
   protected section.
   private section.
     class-data:
@@ -20,6 +23,11 @@ ENDCLASS.
 
 
 CLASS ZCL_MEETUP IMPLEMENTATION.
+
+
+  method GET_CURRENT_DATE.
+    rv_date = sy-datum.
+  endmethod.
 
 
   method get_current_user.
