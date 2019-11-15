@@ -11,6 +11,9 @@ public section.
   methods GET_CURRENT_USER
     returning
       value(RV_USERNAME) type USR02-BNAME .
+  methods GET_CURRENT_DATA
+    returning
+      value(RV_DATE) type SY-DATUM .
   protected section.
   private section.
     class-data:
@@ -20,6 +23,11 @@ ENDCLASS.
 
 
 CLASS ZCL_SINGLETON IMPLEMENTATION.
+
+
+  method GET_CURRENT_DATA.
+    rv_date = sy-datum.
+  endmethod.
 
 
   method GET_CURRENT_USER.
