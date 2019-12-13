@@ -29,6 +29,7 @@ CLASS ZCL_MEETUP IMPLEMENTATION.
     rv_date = sy-datum.
     write sy-datum.
     " comment added
+    WRITE sy-uname.
   endmethod.
 
 
