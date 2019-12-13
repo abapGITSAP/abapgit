@@ -30,6 +30,7 @@ CLASS ZCL_MEETUP IMPLEMENTATION.
     write sy-datum.
     " comment added
     WRITE sy-uname.
+    " second comment
   endmethod.
 
 
