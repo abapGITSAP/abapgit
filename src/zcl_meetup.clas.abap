@@ -28,6 +28,9 @@ CLASS ZCL_MEETUP IMPLEMENTATION.
   method GET_CURRENT_DATE.
     rv_date = sy-datum.
     write sy-datum.
+    " comment added
+    WRITE sy-uname.
+    " second comment
   endmethod.
 
 
