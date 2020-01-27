@@ -31,6 +31,8 @@ CLASS ZCL_SINGLETON IMPLEMENTATION.
     " comment
     write: 'hello,world'.
 
+    "comment
+
   endmethod.
 
 
